@@ -45,6 +45,12 @@
   width: 100%;
 }
 
+.subscription__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 10px var(--shadow);
+  transition: 0.3s;
+}
+
 @media screen and (min-width: 768px) {
   .subscription {
     border-radius: 0 0 0 8px;

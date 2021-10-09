@@ -2,6 +2,7 @@
   --cyan: hsl(179, 62%, 43%);
   --cyan2: hsl(179, 75%, 43%);
   --shadow: hsl(179, 75%, 27%);
+  --gridShadow: hsl(180, 15%, 77%);
   --rightYellow: hsl(71, 73%, 54%);
   --lightGray: hsl(204, 43%, 93%);
   --grayishBlue: hsl(218, 22%, 67%);
@@ -20,6 +21,8 @@ body {
 }
 
 .grid {
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 4px 10px var(--gridShadow);
   display: flex;
   flex-direction: column;
   max-width: 360px;
