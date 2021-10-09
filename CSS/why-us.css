@@ -1,0 +1,33 @@
+.whyUs {
+  background-color: var(--cyan2);
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+}
+
+.whyUs__title {
+  color: var(--lightWhite);
+}
+
+.whyUs__text {
+  color: var(--lightWhite);
+  font-size: .9rem;
+  line-height: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .whyUs {
+    border-radius: 0 0 8px 0;
+    grid-area: whyUs;
+    justify-content: space-evenly;
+  }
+
+  .whyUs__title {
+    padding-left: 1rem;
+  }
+
+  .whyUs__text {
+    padding-left: 1rem;
+  }
+}

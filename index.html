@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./CSS/reset.css">
-  <link rel="stylesheet" href="./CSS/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/join.css">
+  <link rel="stylesheet" href="./CSS/subscription.css">
+  <link rel="stylesheet" href="./CSS/why-us.css">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
@@ -23,13 +26,16 @@
     </section>
     <section class="subscription">
       <h3 class="subscription__title">Monthly Subscription</h3>
-      <p class="subscription__price"><span>&dollar;29</span> per month</p>
+      <div class="subscription__price">
+        <p class="subscription__price__number">&dollar;29</p>
+        <p class="subscription__price__month">per month</p>
+      </div>
       <p class="subscription__text">Full access for less than &dollar;1 a day</p>
       <a class="subscription__button">Sign Up</a>
     </section>
     <section class="whyUs">
-      <h3>Why Us</h3>
-      <p>Tutorials by industry experts<br>
+      <h3 class="whyUs__title">Why Us</h3>
+      <p class="whyUs__text">Tutorials by industry experts<br>
         Peer &amp; expert code review<br>
         Coding exercises<br>
         Access to our GitHub repos<br>
@@ -41,7 +47,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.linkedin.com/in/muriloluzzi/" target="_blank">Murilo Luzzi</a>.
     </p>
   </footer>
 </body>
